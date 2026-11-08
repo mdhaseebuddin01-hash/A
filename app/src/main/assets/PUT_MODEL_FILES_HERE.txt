@@ -1,0 +1,4 @@
+Copy these three files from the Colab notebook's auris_model.zip into this folder, then rebuild:
+  auris.onnx
+  labels.txt
+  model_info.json
