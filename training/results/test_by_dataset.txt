@@ -1,0 +1,15 @@
+ONNX Runtime 1.27.0; threshold 0.90; 154 test images
+Overall                all: 139/154 =  90.3% (84.6%-94.0%)   confident:  91/92  =  98.9% (94.1%-99.8%), coverage 60%
+Chile (Datos)          all: 118/121 =  97.5% (93.0%-99.2%)   confident:  83/83  = 100.0% (95.6%-100.0%), coverage 69%
+Turkey (eardrum)       all:  21/33  =  63.6% (46.6%-77.8%)   confident:   8/9   =  88.9% (56.5%-98.0%), coverage 27%
+
+pred                               aom  csom  normal  tympanosclerosis  wax
+dataset          label                                                     
+Chile (Datos)    csom                0    30       0                 0    0
+                 normal              0     0      26                 3    0
+                 tympanosclerosis    0     0       0                30    0
+                 wax                 0     0       0                 0   32
+Turkey (eardrum) aom                 9     0       1                 0    0
+                 csom                0     0       1                 0    0
+                 normal              8     0      12                 0    0
+                 wax                 2     0       0                 0    0

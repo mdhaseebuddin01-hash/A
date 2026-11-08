@@ -1,0 +1,5 @@
+aom
+csom
+normal
+tympanosclerosis
+wax

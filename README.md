@@ -10,7 +10,9 @@ Everything runs on the phone. No image leaves the device.
 - An Android phone with Android 8.0 or newer
 
 ## 1. Add the model
-Copy the three files into `app/src/main/assets/`. Without them the app still opens, but shows “No model is installed yet”.
+A first model, trained only on public data, is already in `app/src/main/assets/`. It covers normal, wax, AOM, CSOM and tympanosclerosis, and is good for trying the app but not for patients. `training/README.md` says what it was trained on and how well it does.
+
+To use your own model, copy the three files into `app/src/main/assets/` in its place. Without any model files the app still opens, but shows “No model is installed yet”.
 
 ## 2. Build the app
 1. In Android Studio choose **Open** and select this `auris-android` folder.
